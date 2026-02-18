@@ -1,0 +1,43 @@
+{
+  "name": "pdf-reader-for-taiyo",
+  "version": "1.0.0",
+  "description": "TAIYO工業向けのPDF図面情報抽出システムのベース実装です。",
+  "private": true,
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "WATCHPACK_POLLING=true next dev",
+    "dev:reset": "rm -rf .next && WATCHPACK_POLLING=true next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwangkwangmyong/PDF-Reader-For-TAIYO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwangkwangmyong/PDF-Reader-For-TAIYO/issues"
+  },
+  "homepage": "https://github.com/hwangkwangmyong/PDF-Reader-For-TAIYO#readme",
+  "dependencies": {
+    "next": "^14.2.35",
+    "pdfjs-dist": "^5.4.624",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3"
+  }
+}
